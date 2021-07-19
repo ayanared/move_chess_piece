@@ -4,6 +4,7 @@
   "description": "move a game piece across the board",
   "main": "index.js",
   "scripts": {
+    "start": "node -e 'require(\"./index.js\").startMove()'",
     "test": "jest"
   },
   "keywords": [
